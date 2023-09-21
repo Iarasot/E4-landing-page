@@ -57,7 +57,13 @@
  color:#F6F4D2;
  font-size: 16px;
  }
+ 
+ #menu-toggle,
+ #cart-toggle,
 
+ .menu-label {
+   display: none;
+ }
  main {
     background: #F6F4D2;
     display: flex;
@@ -71,7 +77,7 @@
  #hero {
     display: flex;
     margin-top: 50px;
-    max-width: 1000px;
+    max-width: 1200px;
     padding: 20px 0;
     justify-content: center;
     align-items: center;
@@ -81,13 +87,14 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 500px;
+    width: 800px;
  }
 .hero-info h1 {
     font-size: 46px;
     width: 80%;
     font-weight: 800;
     min-width: 500;
+    padding: 20px;
 }
 
 .hero-info p {
@@ -130,6 +137,12 @@
     font-weight: 700;
 }
 
+#info p {
+    font-size: 16px;
+    width: 70%;
+    color: #A44A3F;
+}
+
 .info-cards-container {
     display: flex;
     align-items: flex-start;
@@ -155,7 +168,7 @@
 
 }
 
-footer{
+footer {
     background-color: #A44A3F;
     color: #F6F4D2;
     padding: 20px;

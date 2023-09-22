@@ -97,6 +97,7 @@
 
       .piedepagina {
         justify-content: center;
+        flex-direction: row;
         align-items: center;
         width: 100%;
         
@@ -133,9 +134,13 @@
 /* MOVILE */
 @media (max-width: 768px) {
     
-    .hero-info{
-        width: 90%;
-        justify-content: center;
+  .logo {
+    height: 60%;
+    margin-right: 0;
+    margin-top: 4px;
+  }
+  .hero-info{
+        width: 100%;
     }
     .hero-info h1 {
         font-size: 35px;
@@ -143,4 +148,41 @@
         justify-content: center;
         text-align: center;
     }
-}
+    .hero-info p{
+        width: 70;
+        max-width: unset;
+    }
+    .lista li {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 10px;
+      padding: 5px;
+  }
+    footer h2 {
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 16px;
+      padding: 40px;
+  }
+  .piedepagina {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+    .pie-dos h3{
+      justify-content: center;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 20px;
+      
+   }
+
+    .iconos-finales img {
+      justify-content: left;
+      align-items: left;
+      padding: 10px;
+      margin: 4px;
+  }
+  }

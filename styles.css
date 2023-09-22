@@ -90,11 +90,11 @@
     width: 800px;
  }
 .hero-info h1 {
-    font-size: 46px;
-    width: 80%;
+    font-size: 48px;
+    width: 70%;
     font-weight: 800;
-    min-width: 500;
-    padding: 20px;
+    min-width: 400;
+    padding: 5px;
 }
 
 .hero-info p {
@@ -112,6 +112,7 @@
     padding: 8px 12px;
     width: 120px;
     text-align: center;
+   
  }
 
 .hero-imagen {
@@ -169,8 +170,8 @@
 }
 
 footer {
-    background-color: #A44A3F;
-    color: #F6F4D2;
+    background-color: var(--verde);
+    color: #A44A3F;
     padding: 20px;
     text-align: center;
 }
@@ -185,7 +186,7 @@ footer h2 {
     display: flex;
     justify-content: start;
     width: 50%;
-    color: #F6F4D2;
+    color: #A44A3F;
 }
 
 .pie-dos {
@@ -210,39 +211,51 @@ footer h2 {
 .lista li {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 5px;
+    padding: 8px;
 }
 
 .lista img {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 40px;
     margin-right: 10px
 }
 
 .imagen-mapa {
-    margin-left: 140px;
-    width: 60%;
-    padding: 10px;
-    border-radius: 20px;
+    margin-left: 400px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+    flex-direction: row;
+    justify-content: right;
+    gap: 10px;
   }
 .imagen-mapa img {
     border-radius: 10px;
-}
+    width: 250px;
+    height: 250px;
+    
 
+    
+}
+.titulo h4{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #A44A3F;
+    padding: 10px;
+    margin: 4px;
+}
 .iconos-finales {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-direction: row;
     padding: 5px;
 }
 
 .iconos-finales img {
+    justify-content: center;
+    width: 50px;
+    height: 50px;
     padding: 10px;
     margin: 4px;
 }
